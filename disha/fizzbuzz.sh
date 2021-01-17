@@ -7,13 +7,12 @@ for ((i=1; i<=$1; i++)); do
   if ! ((i%3)); then
     sum=$((sum + i))
     echo -n Fizz
-  fi;
-  if ! ((i%5)); then
+  elif ! ((i%5)); then
     sum=$((sum + i))
     echo -n Buzz
   fi;
   echo ''
 done
 
-echo "total sum of multiples is $sum" 
+echo "total sum of all multiples of three and all multiples of five is $sum" 
   
