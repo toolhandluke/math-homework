@@ -9,4 +9,4 @@ for i in range(1,1000):
     sum += i
 
 
-print("total sum of numbers that are multiples of three or multiples of ffive: %d" % sum)
+print("total sum of numbers that are multiples of three or multiples of five: %d" % sum)
