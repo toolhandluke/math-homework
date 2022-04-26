@@ -9,6 +9,8 @@ def quadraticforX(x):
 highx=float(10)
 lowx=float(5)
 y=5 
+
+count=0
 while (abs(y) > float(0.00001)):
   x=(highx+lowx)/2
   print ("x is %f" % x)
@@ -17,7 +19,9 @@ while (abs(y) > float(0.00001)):
     highx=x
   else:
     lowx=x
-  
+  count+=1
+
+print ("It took %d cycles" % count)
 
 
   
